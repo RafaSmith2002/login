@@ -1,4 +1,6 @@
 {
     "DockerRun.DisableDockerrc": true,
-    "editor.linkedEditing": true
+    "editor.linkedEditing": true,
+    "editor.wordWrap": "on",
+    "editor.fontSize": 18
 }
