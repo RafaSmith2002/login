@@ -7,8 +7,7 @@
 */
 
 * {
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
-	Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,	Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	padding: 0px;
 	margin: 0px;
 	box-sizing: border-box;
@@ -38,12 +37,16 @@ section#login {
 	height: 500px;
 	border-radius: 20px;
 	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+
+	transition: widht 0.3s, height .3s;
+	transition-timing-function: ease;
 } 
 
 section#login > div#imagem {
 	display: block;
 	background: #5f2c82 url(../imagem/logincode.jpg) no-repeat;
 	background-size: cover;
+	background-position: left bottom;
 	height: 200px;
 }
 
